@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Never commit real initiative data, evidence, or decision outcomes
+data/
+analysis-inputs/
+outputs/
+**/context/company.md
+
+# Real decision ledger data stays private (this repo ships only the template)
+DECISION_LEDGER.local.md
+*.private.md
