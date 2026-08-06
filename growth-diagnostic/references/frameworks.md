@@ -10,7 +10,7 @@ Close: value is created at every layer / customers are long-term bets / profitab
 
 Storytelling rules: one anchor number per chapter; one named example customer instead of tables in the body; tables go to the annex; the executive summary opens with the recommendation.
 
-## 2. Consulting-style deck building (Capability Building / pyramid principle)
+## 2. Consulting-style deck building (problem solving / pyramid principle)
 
 - **Dummy pack first:** sketch headline + key argument per slide BEFORE building anything.
 - **The headline IS the message:** a claim with the key number inside, 1-2 lines, unique even without the chart, fits the story. Never generic labels ("Retention analysis" ✗ / "Frequency among actives is healthy; the bleed is converting new users into repeaters" ✓).
