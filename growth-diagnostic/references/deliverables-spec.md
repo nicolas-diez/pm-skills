@@ -15,7 +15,7 @@ Where the thinking happens. Sections: the real brief (reread the original ask, n
 - **Proven technical workarounds:** headless LibreOffice cannot recalculate workbooks with many array formulas over 20k+ rows (hangs). Fix: (1) bake helpers except row 2; (2) validate array semantics in an isolated mini-file against pandas; (3) set `fullCalcOnLoad = True`; (4) warn "recalculates on open in Excel/Sheets, 1-2 min". AGGREGATE(16,6,...) does NOT work in LO for conditional medians (#DIV/0!): use CSE MEDIAN(IF). MINIFS/MAXIFS need the `_xlfn.` prefix.
 - Mandatory verification: Excel outputs compared against the pandas run BEFORE delivering.
 
-## 3. Deck (12-15 slides + annexes)
+## 3. Deck (10-15 slides + annexes)
 
 - Structure: cover · recommendation with anchor numbers · context/stage · business health · service level · segments/retention · NSM + tree with baselines · prioritized levers (cards with budget weight in the footer) + no-gos · deep experiment · budget · constrained scenario (if applies) · declared risks and assumptions · close with 30/60/90 · Annex A benchmark · Annex B Excel index ("how to audit every number").
 - **Every content slide: 1-2 charts validating that slide's thesis.** Chart type by message: line = evolution/trend; horizontal bar = segment comparison (the value gap); vertical bar = decay/stages; pie/donut only for composition of a total; table when the detail IS the message. Native charts, never images.
