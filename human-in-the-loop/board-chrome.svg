@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img" aria-labelledby="bt bd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="bt">A workshop board after the person has decided every frame</title>
+<desc id="bd">Eight frames of an invented example. Four are stamped Changed and show what the person said; four are stamped Decided.</desc>
+<rect width="1000" height="780" rx="14" fill="#f6f8fa"/>
+<text x="16" y="34" font-size="18" font-weight="600" fill="#1f2328">The same board on a classic exercise: improve Chrome</text>
+<text x="16" y="56" font-size="12.5" fill="#57606a">The first draft follows a public walkthrough (IGotAnOffer on YouTube). The review is a reconstruction.</text>
+<rect x="16" y="78" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="42" cy="104" r="12" fill="#fbefff"/>
+<text x="42" y="108" text-anchor="middle" font-size="12" font-weight="600" fill="#8250df">1</text>
+<text x="62" y="109" font-size="14" font-weight="600" fill="#1f2328">Goal</text>
+<rect x="250" y="94" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="284" y="108" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="30" y="126" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="38" y="142" font-size="11" font-weight="600" fill="#1f2328">Is this the goal, or is there one above it?</text>
+<text x="30" y="170" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Goal:</tspan> Keep heavy users satisfied so they do</text>
+<text x="30" y="185" font-size="11.5" fill="#57606a">not switch browsers</text>
+<text x="30" y="203" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Keeps score with:</tspan> Satisfaction score (CSAT)</text>
+<text x="30" y="218" font-size="11.5" fill="#57606a">of heavy users, chosen over NPS because few</text>
+<text x="30" y="233" font-size="11.5" fill="#57606a">people recommend a browser</text>
+<rect x="342" y="78" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="368" cy="104" r="12" fill="#fbefff"/>
+<text x="368" y="108" text-anchor="middle" font-size="12" font-weight="600" fill="#8250df">2</text>
+<text x="388" y="109" font-size="14" font-weight="600" fill="#1f2328">Customer</text>
+<rect x="576" y="94" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="610" y="108" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="356" y="126" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="364" y="142" font-size="11" font-weight="600" fill="#1f2328">Why this customer and not the other?</text>
+<text x="356" y="170" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">We pick:</tspan> Heavy user</text>
+<text x="356" y="188" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Why:</tspan> A knowledge worker in the browser all</text>
+<text x="356" y="203" font-size="11.5" fill="#57606a">day. We assume heavy users are about 20% of</text>
+<text x="356" y="218" font-size="11.5" fill="#57606a">users and most of the time spent; small</text>
+<text x="356" y="233" font-size="11.5" fill="#57606a">changes weigh most for them, and light users…</text>
+<rect x="668" y="78" width="316" height="222" rx="10" fill="#ffffff" stroke="#bf8700"/>
+<circle cx="694" cy="104" r="12" fill="#fbefff"/>
+<text x="694" y="108" text-anchor="middle" font-size="12" font-weight="600" fill="#8250df">3</text>
+<text x="714" y="109" font-size="14" font-weight="600" fill="#1f2328">Their moment</text>
+<rect x="902" y="94" width="68" height="20" rx="10" fill="#bf8700"/>
+<text x="936" y="108" text-anchor="middle" font-size="10.5" font-weight="600" fill="#ffffff">Changed</text>
+<rect x="682" y="126" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="690" y="142" font-size="11" font-weight="600" fill="#1f2328">Is this scene real? What does she want…</text>
+<text x="682" y="170" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Scene:</tspan> Maya, a sales analyst who keeps 30 or</text>
+<text x="682" y="185" font-size="11.5" fill="#57606a">more tabs open all day (invented for this</text>
+<text x="682" y="200" font-size="11.5" fill="#57606a">example). Two minutes before a client call…</text>
+<text x="682" y="218" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Underneath:</tspan> To feel in control of her day</text>
+<text x="682" y="233" font-size="11.5" fill="#57606a">instead of chasing windows</text>
+<line x1="682" y1="256" x2="970" y2="256" stroke="#bf8700" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="682" y="272" font-size="11" font-style="italic" fill="#7d4e00">The review: “Not you: name a user of the</text>
+<text x="682" y="286" font-size="11" font-style="italic" fill="#7d4e00">segment and tell her day. It works here onl…”</text>
+<rect x="16" y="310" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="42" cy="336" r="12" fill="#fbefff"/>
+<text x="42" y="340" text-anchor="middle" font-size="12" font-weight="600" fill="#8250df">4</text>
+<text x="62" y="341" font-size="14" font-weight="600" fill="#1f2328">Where it fails today</text>
+<rect x="250" y="326" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="284" y="340" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="30" y="358" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="38" y="374" font-size="11" font-weight="600" fill="#1f2328">These, or is one missing?</text>
+<text x="30" y="402" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Fails today:</tspan> Finding the right tab; Late to</text>
+<text x="30" y="417" font-size="11.5" fill="#57606a">meetings; Tab overload; Memory and battery</text>
+<text x="30" y="432" font-size="11.5" fill="#57606a">drain, set aside</text>
+<text x="30" y="450" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Ranked by:</tspan> Time lost per day, and how many</text>
+<text x="30" y="465" font-size="11.5" fill="#57606a">heavy users hit it</text>
+<rect x="342" y="310" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="368" cy="336" r="12" fill="#fbefff"/>
+<text x="368" y="340" text-anchor="middle" font-size="12" font-weight="600" fill="#8250df">5</text>
+<text x="388" y="341" font-size="14" font-weight="600" fill="#1f2328">Ideas</text>
+<rect x="576" y="326" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="610" y="340" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="356" y="358" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="364" y="374" font-size="11" font-weight="600" fill="#1f2328">Which one would you add?</text>
+<text x="356" y="402" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Ideas:</tspan> Meeting alert with the join link</text>
+<text x="356" y="417" font-size="11.5" fill="#57606a">(small); One shortcut that searches open</text>
+<text x="356" y="432" font-size="11.5" fill="#57606a">tabs, Drive and history (habit); Tabs that</text>
+<text x="356" y="447" font-size="11.5" fill="#57606a">sort and clean themselves (bold)</text>
+<rect x="668" y="310" width="316" height="222" rx="10" fill="#ffffff" stroke="#bf8700"/>
+<circle cx="694" cy="336" r="12" fill="#fbefff"/>
+<text x="694" y="340" text-anchor="middle" font-size="12" font-weight="600" fill="#8250df">6</text>
+<text x="714" y="341" font-size="14" font-weight="600" fill="#1f2328">Choose and measure</text>
+<rect x="902" y="326" width="68" height="20" rx="10" fill="#bf8700"/>
+<text x="936" y="340" text-anchor="middle" font-size="10.5" font-weight="600" fill="#ffffff">Changed</text>
+<rect x="682" y="358" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="690" y="374" font-size="11" font-weight="600" fill="#1f2328">Is this the idea that moves the goal most…</text>
+<text x="682" y="402" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">The pick:</tspan> One shortcut that searches open</text>
+<text x="682" y="417" font-size="11.5" fill="#57606a">tabs, Drive and history</text>
+<text x="682" y="435" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Hypothesis:</tspan> 40 s to 15 s in eight weeks</text>
+<text x="682" y="453" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Primary metric:</tspan> Median time from intent to</text>
+<text x="682" y="468" font-size="11.5" fill="#57606a">the right document</text>
+<line x1="682" y1="488" x2="970" y2="488" stroke="#bf8700" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="682" y="504" font-size="11" font-style="italic" fill="#7d4e00">The review: “Good pick. Before building, say</text>
+<text x="682" y="518" font-size="11" font-style="italic" fill="#7d4e00">how we would know it worked and how to test…”</text>
+<rect x="16" y="542" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="42" cy="568" r="12" fill="#fbefff"/>
+<text x="42" y="572" text-anchor="middle" font-size="12" font-weight="600" fill="#8250df">7</text>
+<text x="62" y="573" font-size="14" font-weight="600" fill="#1f2328">Growth and vision</text>
+<rect x="250" y="558" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="284" y="572" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="30" y="590" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="38" y="606" font-size="11" font-weight="600" fill="#1f2328">What is left out?</text>
+<text x="30" y="634" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Phases:</tspan> Open tabs only; Plus history; Plus</text>
+<text x="30" y="649" font-size="11.5" fill="#57606a">Drive and other work files</text>
+<text x="30" y="667" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">In one sentence:</tspan> For people who work all day</text>
+<text x="30" y="682" font-size="11.5" fill="#57606a">in Chrome, one shortcut that finds any tab,</text>
+<text x="30" y="697" font-size="11.5" fill="#57606a">file or past page, measured by how fast they</text>
+<text x="30" y="712" font-size="11.5" fill="#57606a">reach the right document</text>
+<rect x="342" y="542" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="368" cy="568" r="12" fill="#fbefff"/>
+<text x="368" y="572" text-anchor="middle" font-size="12" font-weight="600" fill="#8250df">A</text>
+<text x="388" y="573" font-size="14" font-weight="600" fill="#1f2328">Assumptions</text>
+<rect x="576" y="558" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="610" y="572" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="356" y="590" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="364" y="606" font-size="11" font-weight="600" fill="#1f2328">Which one worries you most?</text>
+<text x="356" y="634" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Worries most:</tspan> Users will let Chrome search</text>
+<text x="356" y="649" font-size="11.5" fill="#57606a">their Drive</text>
+<text x="356" y="667" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Also assumed:</tspan> Heavy users are about 20% of</text>
+<text x="356" y="682" font-size="11.5" fill="#57606a">users and most of the time spent; Finding the</text>
+<text x="356" y="697" font-size="11.5" fill="#57606a">right tab costs heavy users minutes every</text>
+<text x="356" y="712" font-size="11.5" fill="#57606a">day; Today it takes about 40 s to reach a…</text>
+<rect x="668" y="542" width="316" height="222" rx="10" fill="#fbefff" stroke="#8250df"/>
+<text x="690" y="624" font-size="54" font-weight="600" fill="#8250df">2 of 8</text>
+<text x="690" y="654" font-size="15" font-weight="600" fill="#1f2328">frames changed against</text>
+<text x="690" y="674" font-size="15" font-weight="600" fill="#1f2328">the first draft</text>
+<text x="690" y="706" font-size="12" fill="#57606a">A scene with a named user, and a way</text>
+<text x="690" y="724" font-size="12" fill="#57606a">to know it worked: the draft had neither.</text>
+</svg>

@@ -57,3 +57,5 @@ Framework + methodology, in the open. The engine is designed to be portable acro
 ## License
 
 MIT — see [LICENSE](./LICENSE).
+
+See also [PM Skills · Human in the loop](human-in-the-loop/): four skills that take a request to a discussed board, and on to a deck or a short test-first PRD, with you deciding at every step.

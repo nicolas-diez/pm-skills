@@ -1,0 +1,141 @@
+{
+  "case": "Spoke, a booking app for neighborhood bike repair shops (invented example)",
+  "type": "design",
+  "lang": "en",
+  "board": "",
+  "created_at": "2026-01-12T10:00:00",
+  "frames": [
+    {
+      "id": "0", "name": "Start here", "has_question": false,
+      "draft": {"question": "", "proposal": "", "fields": {"decision": "What Spoke builds next quarter to grow bookings", "how_to_read": "Left to right. Red notes are assumptions.", "asks_table": ["Goal: is this the goal, or is there one above it?", "Customer: why this customer and not the other?", "Their moment: is this scene real?", "Where it fails: these three, or is one missing?", "Ideas: which one would you add?", "Choose: is it the idea that moves the goal most, and is this how we would know?", "Growth: what is left out?", "Assumptions: which one worries you most?"]}, "drafted_at": "2026-01-12T10:01:00"},
+      "opened_at": "2026-01-12T10:05:00", "answer": null, "outcome": null, "change": null, "final": null, "decided_at": null
+    },
+    {
+      "id": "1", "name": "Goal", "has_question": true,
+      "draft": {
+        "question": "Is this the goal, or is there one above it?",
+        "proposal": "Grow app downloads, because the brief says the app needs more users.",
+        "fields": {"business_goal": "More riders download the app", "user_problem": "Riders do not know the app exists", "metric": "Downloads per week"},
+        "drafted_at": "2026-01-12T10:01:00"
+      },
+      "opened_at": "2026-01-12T10:06:00",
+      "answer": "Downloads are not the goal. A shop pays us when a repair gets booked. The goal is first bookings that complete.",
+      "outcome": "changed",
+      "change": "From downloads to completed first bookings: it is what the shops pay for and what a rider came to do.",
+      "final": {"business_goal": "More riders complete a first repair booking", "user_problem": "A rider with a broken bike cannot tell which shop can fix it this week or what it will cost", "metric": "First bookings completed per week", "why_now": "Two shop chains asked for a pilot this spring", "brief_and_givens": "Decide what to build next quarter, with the current team. Shops keep their own tools during the pilot."},
+      "decided_at": "2026-01-12T10:14:00"
+    },
+    {
+      "id": "2", "name": "Customer", "has_question": true,
+      "draft": {
+        "question": "Why this customer and not the other?",
+        "proposal": "Weekend riders, because there are more of them.",
+        "fields": {"segments": [{"name": "Weekend rider", "role": ["uses"]}, {"name": "Daily commuter", "role": ["uses"]}, {"name": "Shop owner", "role": ["pays", "lives_with"]}], "chosen": "Weekend rider", "chosen_why": "The largest group of riders"},
+        "drafted_at": "2026-01-12T10:01:00"
+      },
+      "opened_at": "2026-01-12T10:15:00",
+      "answer": "Commuters. A weekend rider can wait a week. A commuter with a flat loses the workday, so the urgency is theirs.",
+      "outcome": "changed",
+      "change": "From weekend riders to daily commuters: fewer people, but the repair blocks their day and they come back.",
+      "final": {"segments": [{"name": "Weekend rider", "role": ["uses"]}, {"name": "Daily commuter", "role": ["uses"]}, {"name": "Shop owner", "role": ["pays", "lives_with"]}], "chosen": "Daily commuter", "chosen_why": "We assume commuters are 60% of repair demand and the only group that needs the bike back the same day", "chosen_why_numbers": ["60%"]},
+      "decided_at": "2026-01-12T10:24:00"
+    },
+    {
+      "id": "3", "name": "Their moment and what they use it for", "has_question": true,
+      "draft": {
+        "question": "Is this scene real? What does she want underneath?",
+        "proposal": "Dana gets a flat on Monday morning and needs the bike for Tuesday.",
+        "fields": {"persona": "Dana, rides to work every day", "moment": "Monday morning, flat tire and a bent rim, halfway to the office", "deeper_want": "Not to depend on anyone to get to work", "use_cases": ["Find a shop that can take the bike today", "Know the price before leaving the bike", "Know when it will be ready"], "prioritized_use_case": "Find a shop that can take the bike today"},
+        "drafted_at": "2026-01-12T10:01:00"
+      },
+      "opened_at": "2026-01-12T10:25:00",
+      "answer": "Yes, that is the scene. Keep it.",
+      "outcome": "kept", "change": "",
+      "final": {"persona": "Dana, rides to work every day", "moment": "Monday morning, flat tire and a bent rim, halfway to the office", "deeper_want": "Not to depend on anyone to get to work", "use_cases": ["Find a shop that can take the bike today", "Know the price before leaving the bike", "Know when it will be ready"], "prioritized_use_case": "Find a shop that can take the bike today"},
+      "decided_at": "2026-01-12T10:29:00"
+    },
+    {
+      "id": "4", "name": "Where it fails today", "has_question": true,
+      "draft": {
+        "question": "These three, or is one missing?",
+        "proposal": "No visible slots, unknown price, and a day without the bike, ranked by how often they stop a booking.",
+        "fields": {"failures": [{"name": "No visible slots", "cause": "Shops keep their week on paper", "alternative_today": "Calls two or three shops, or rides to the nearest one and waits"}, {"name": "Unknown price", "cause": "No shared price list", "alternative_today": "Asks a friend or accepts the quote at the counter"}, {"name": "A day without the bike", "cause": "Repairs are queued, not scheduled", "alternative_today": "Takes the bus or borrows a bike"}], "ranking_criterion": "How many commuters hit it before booking, and whether it stops the booking", "top": ["No visible slots", "Unknown price"]},
+        "drafted_at": "2026-01-12T10:01:00"
+      },
+      "opened_at": "2026-01-12T10:30:00",
+      "answer": "Those three. The order is right.",
+      "outcome": "kept", "change": "",
+      "final": {"failures": [{"name": "No visible slots", "cause": "Shops keep their week on paper", "alternative_today": "Calls two or three shops, or rides to the nearest one and waits"}, {"name": "Unknown price", "cause": "No shared price list", "alternative_today": "Asks a friend or accepts the quote at the counter"}, {"name": "A day without the bike", "cause": "Repairs are queued, not scheduled", "alternative_today": "Takes the bus or borrows a bike"}], "ranking_criterion": "How many commuters hit it before booking, and whether it stops the booking", "top": ["No visible slots", "Unknown price"]},
+      "decided_at": "2026-01-12T10:36:00"
+    },
+    {
+      "id": "5", "name": "Ideas", "has_question": true,
+      "draft": {
+        "question": "Which one would you add?",
+        "proposal": "Three ideas of different size, one per failure.",
+        "fields": {"ideas": [{"name": "Open-slot calendar", "size": "small", "attacks": "No visible slots"}, {"name": "Fixed-price menu", "size": "habit", "attacks": "Unknown price"}, {"name": "Loaner bike", "size": "bold", "attacks": "A day without the bike"}]},
+        "drafted_at": "2026-01-12T10:01:00"
+      },
+      "opened_at": "2026-01-12T10:37:00",
+      "answer": "Add pickup at the office. Some commuters cannot even get the bike to the shop.",
+      "outcome": "changed",
+      "change": "A fourth idea, office pickup, for the commuter who cannot reach the shop.",
+      "final": {"ideas": [{"name": "Open-slot calendar", "size": "small", "attacks": "No visible slots"}, {"name": "Fixed-price menu", "size": "habit", "attacks": "Unknown price"}, {"name": "Loaner bike", "size": "bold", "attacks": "A day without the bike"}, {"name": "Office pickup", "size": "bold", "attacks": "A day without the bike"}]},
+      "decided_at": "2026-01-12T10:45:00"
+    },
+    {
+      "id": "6", "name": "Choose, hypothesis and metrics", "has_question": true,
+      "draft": {
+        "question": "Is this the idea that moves the goal most, and is this how we would know?",
+        "proposal": "The calendar, measured by how many riders open it.",
+        "fields": {"chosen_idea": "Open-slot calendar", "why_vs_goal": "It removes the first reason a booking does not start", "hypothesis": {"statement": "If commuters see this week's slots, more of them book", "baseline": "40%", "target": "55%", "timeframe": "six weeks"}, "metrics": {"north_star": "First bookings completed per week", "primary": "Calendar views per week", "secondary": "Time from opening the app to a confirmed slot", "guardrails": "Shop no-shows and cancellations do not rise"}, "cheap_test": "Three shops update a shared sheet every morning", "weak_spot": "It depends on shops keeping the calendar current"},
+        "drafted_at": "2026-01-12T10:01:00"
+      },
+      "opened_at": "2026-01-12T10:46:00",
+      "answer": "The calendar, yes. But views are not the metric. Count how many started bookings complete.",
+      "outcome": "changed",
+      "change": "Primary metric from calendar views to the share of started bookings that complete: views can grow while bookings do not.",
+      "final": {"chosen_idea": "Open-slot calendar", "why_vs_goal": "It removes the first reason a booking does not start", "hypothesis": {"statement": "If commuters see this week's slots, more started bookings complete", "baseline": "40%", "target": "55%", "timeframe": "six weeks"}, "metrics": {"north_star": "First bookings completed per week", "primary": "Share of started bookings that complete", "secondary": "Time from opening the app to a confirmed slot", "guardrails": "Shop no-shows and cancellations do not rise"}, "cheap_test": "Three shops update a shared sheet every morning", "weak_spot": "It depends on shops keeping the calendar current"},
+      "decided_at": "2026-01-12T10:57:00"
+    },
+    {
+      "id": "7", "name": "Growth and vision", "has_question": true,
+      "draft": {
+        "question": "What is left out?",
+        "proposal": "Three phases, from three shops by hand to the whole city.",
+        "fields": {"growth": "Every finished repair invites the rider to save the shop, and shops share their booking link", "phases": ["Three shops, by hand", "One neighborhood, calendar in the app", "The city, with the price menu"], "company_strategy_fit": "Spoke wins when shops run their day on it, and the calendar is the first reason to", "dilemma_principle": "When rider and shop pull apart, the booking that completes wins", "one_sentence_summary": "For commuters who lose a workday to a broken bike, show this week's open slots and count how many started bookings complete"},
+        "drafted_at": "2026-01-12T10:01:00"
+      },
+      "opened_at": "2026-01-12T10:58:00",
+      "answer": "Nothing to add. Loaner bikes stay out for now.",
+      "outcome": "kept", "change": "",
+      "final": {"growth": "Every finished repair invites the rider to save the shop, and shops share their booking link", "phases": ["Three shops, by hand", "One neighborhood, calendar in the app", "The city, with the price menu"], "company_strategy_fit": "Spoke wins when shops run their day on it, and the calendar is the first reason to", "dilemma_principle": "When rider and shop pull apart, the booking that completes wins", "one_sentence_summary": "For commuters who lose a workday to a broken bike, show this week's open slots and count how many started bookings complete"},
+      "decided_at": "2026-01-12T11:03:00"
+    },
+    {
+      "id": "A", "name": "Assumptions", "has_question": true,
+      "draft": {
+        "question": "Which one worries you most?",
+        "proposal": "That shops will keep the calendar current.",
+        "fields": {"assumptions": ["Commuters are most of the repair demand", "Shops will update their slots every morning", "Today fewer than half of started bookings complete"], "most_worrying": "Shops will update their slots every morning"},
+        "drafted_at": "2026-01-12T10:01:00"
+      },
+      "opened_at": "2026-01-12T11:04:00",
+      "answer": "The shops one. If they do not update, nothing else matters.",
+      "outcome": "kept", "change": "",
+      "final": {"assumptions": ["Commuters are most of the repair demand", "Shops will update their slots every morning", "Today fewer than half of started bookings complete"], "most_worrying": "Shops will update their slots every morning"},
+      "decided_at": "2026-01-12T11:07:00"
+    },
+    {
+      "id": "E", "name": "Evidence", "has_question": false,
+      "draft": {"question": "", "proposal": "", "fields": {"items": [{"type": "quote", "ref": "A rider told us she called three shops before finding a slot", "source": "Invented for this example"}, {"type": "source", "ref": "Pilot request from two shop chains", "source": "Invented for this example"}]}, "drafted_at": "2026-01-12T10:01:00"},
+      "opened_at": "2026-01-12T11:08:00", "answer": null, "outcome": null, "change": null, "final": null, "decided_at": null
+    }
+  ],
+  "numbers": [
+    {"value": "60%", "frame": "2", "assumption": true},
+    {"value": "40%", "frame": "6", "assumption": true},
+    {"value": "55%", "frame": "6", "assumption": true}
+  ],
+  "solution_terms": []
+}

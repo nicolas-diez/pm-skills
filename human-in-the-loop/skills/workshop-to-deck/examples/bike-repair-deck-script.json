@@ -1,0 +1,22 @@
+{
+  "deck": "Spoke: show this week's open slots (invented example)",
+  "log": "../../miro-product-workshop/examples/bike-repair-workshop-log.json",
+  "max_slides": 8,
+  "brief": [
+    {"id": "B1", "asks": "What should Spoke build next quarter?"},
+    {"id": "B2", "asks": "For whom, and why them?"},
+    {"id": "B3", "asks": "How will we know it worked?"}
+  ],
+  "slides": [
+    {"n": 1, "arc": "goal", "title": "The goal is first bookings that complete, not downloads", "body": "Shops pay when a repair gets booked. Downloads can grow while bookings do not.", "covers": ["B1"], "numbers": [], "footer_sources": [], "images": [], "approved": true},
+    {"n": 2, "arc": "user", "title": "We build for the commuter who loses a workday to a broken bike", "body": "We assume commuters are 60% of repair demand, and they are the only group that needs the bike back the same day.", "covers": ["B2"], "numbers": [{"value": "60%", "trace": "log:2"}], "footer_sources": ["Assumption, stated on the workshop board (frame 2)"], "images": [], "approved": true},
+    {"n": 3, "arc": "failure", "title": "Today she calls three shops to find one that has a slot", "body": "No shop shows its week. The price is unknown until the bike is on the stand.", "covers": ["B2"], "numbers": [], "footer_sources": [], "images": [], "approved": true},
+    {"n": 4, "arc": "ideas", "title": "Four ideas, from a shared calendar to office pickup", "body": "Open-slot calendar, fixed-price menu, loaner bike, office pickup. Each one answers one failure.", "covers": ["B1"], "numbers": [], "footer_sources": [], "images": [], "approved": true},
+    {"n": 5, "arc": "choice", "title": "The open-slot calendar removes the first reason a booking never starts", "body": "Cheapest test: three shops update a shared sheet every morning. Its weak spot: it depends on shops keeping it current.", "covers": ["B1"], "numbers": [], "footer_sources": [], "images": [], "approved": true},
+    {"n": 6, "arc": "measure", "title": "Started bookings that complete should go from 40% to 55% in six weeks", "body": "Guardrail: shop no-shows and cancellations do not rise.", "covers": ["B3"], "numbers": [{"value": "40%", "trace": "log:6"}, {"value": "55%", "trace": "log:6"}], "footer_sources": ["Assumptions, stated on the workshop board (frame 6)"], "images": [], "approved": true},
+    {"n": 7, "arc": "phases", "title": "Three shops by hand, then one neighborhood, then the city", "body": "Each phase starts only if the completion rate held in the one before.", "covers": ["B1"], "numbers": [], "footer_sources": [], "images": [], "approved": true},
+    {"n": 8, "arc": "summary", "title": "One calendar, one number to watch, three shops to start", "body": "", "covers": ["B1", "B3"], "numbers": [], "footer_sources": [], "images": [], "approved": true}
+  ],
+  "closing_sentence": "For commuters who lose a workday to a broken bike, show this week's open slots and count how many started bookings complete",
+  "generations": []
+}

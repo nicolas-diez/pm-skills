@@ -1,0 +1,62 @@
+{
+  "title": "Spoke: this week's open slots (invented example)",
+  "log": "../../miro-product-workshop/examples/bike-repair-workshop-log.json",
+  "problem": "A rider with a broken bike cannot tell which shop can fix it this week or what it will cost. Today she calls two or three shops, or rides to the nearest one and waits.",
+  "for_whom": "The daily commuter. We assume commuters are 60% of repair demand, and they are the only group that needs the bike back the same day.",
+  "test_first": {
+    "hypothesis": "If commuters see this week's open slots, the share of started bookings that complete goes from 40% to 55% in six weeks.",
+    "test": "Three shops update a shared sheet every morning, and the app shows those slots by hand. No calendar is built for this.",
+    "threshold": "At least 55% of started bookings complete across the three shops.",
+    "decision_if_missed": "We do not build the calendar. We go back to the board and take the next failure, the unknown price."
+  },
+  "goals": [
+    "More riders complete a first repair booking.",
+    "A commuter can see, before leaving home, which shop takes the bike today."
+  ],
+  "non_goals": [
+    {"text": "Growing app downloads", "reason": "Shops pay when a repair gets booked, not when the app is installed."}
+  ],
+  "what_we_build": "An open-slot calendar: each shop marks its free slots for the week, and a rider books one. It removes the first reason a booking does not start.",
+  "discarded": [
+    {"idea": "Fixed-price menu", "reason": "It answers the second failure. It comes after the calendar proves that visible slots move bookings."},
+    {"idea": "Loaner bike", "reason": "A bold bet with stock and insurance behind it. Not before the calendar test."},
+    {"idea": "Office pickup", "reason": "Added in the workshop for the commuter who cannot reach the shop. It needs logistics we do not have yet."}
+  ],
+  "requirements": [
+    {"id": "R1", "priority": "P0", "text": "A shop can mark its free slots for the week in under a minute a day.", "acceptance": "Each pilot shop updates its week on every working day of the first week, without help.", "answers": "failure:No visible slots"},
+    {"id": "R2", "priority": "P0", "text": "A rider sees today's and this week's free slots for the shops near her route.", "acceptance": "A rider who opens the app sees at least one bookable slot, or is told that there is none this week.", "answers": "failure:No visible slots"},
+    {"id": "R3", "priority": "P0", "text": "A rider books a slot and both sides get a confirmation.", "acceptance": "After a booking, the rider and the shop each hold the same day, time and repair, and the slot is no longer offered.", "answers": "goal"},
+    {"id": "R4", "priority": "P1", "text": "A slot that the shop has not confirmed that morning is shown as unconfirmed, not as free.", "acceptance": "No booking can be made on a slot the shop has not confirmed that day.", "answers": "failure:No visible slots"},
+    {"id": "R5", "priority": "P2", "text": "The rider sees when the bike will be ready.", "acceptance": "Every confirmed booking shows a ready-by day that the shop entered.", "answers": "failure:A day without the bike"}
+  ],
+  "edge_cases": [
+    {"case": "Two riders take the same slot", "behavior": "The first confirmed booking keeps it. The second rider is told at once and offered the next free slot."},
+    {"case": "The shop did not update its slots today", "behavior": "Its slots show as unconfirmed and cannot be booked until the shop confirms."},
+    {"case": "The rider does not show up", "behavior": "The shop marks a no-show. The slot is not reopened for that day."}
+  ],
+  "metrics": {
+    "north_star": "First bookings completed per week",
+    "primary": "Share of started bookings that complete",
+    "secondary": "Time from opening the app to a confirmed slot",
+    "guardrails": "Shop no-shows and cancellations do not rise"
+  },
+  "phases": [
+    "Three shops, by hand",
+    "One neighborhood, calendar in the app",
+    "The city, with the price menu"
+  ],
+  "out_of_scope": [
+    {"text": "Payments in the app", "reason": "The rider pays at the shop, as today. Not needed to learn whether visible slots move bookings."},
+    {"text": "Prices", "reason": "That is the next failure on the board, and it has its own test."}
+  ],
+  "open_questions": [
+    {"question": "Do shops accept updating their slots every morning for six weeks?", "owner": "Product", "due": "Before the pilot starts", "status": "open"},
+    {"question": "How far from her route does a commuter accept a shop?", "owner": "Design", "due": "End of the first pilot week", "status": "open"}
+  ],
+  "person_answers": {
+    "scope_v1": "Only the calendar and the booking. No prices, no payments. Three shops first.",
+    "out_of_scope": "Payments stay at the shop. Prices wait for their own test.",
+    "edge_cases": "A double booking goes to whoever confirmed first. A shop that did not update today cannot be booked."
+  },
+  "sources": []
+}

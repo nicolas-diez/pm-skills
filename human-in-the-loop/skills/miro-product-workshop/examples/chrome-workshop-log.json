@@ -1,0 +1,461 @@
+{
+  "case": "Improve Chrome for heavy users, a classic product exercise. The first draft follows a public walkthrough by IGotAnOffer on YouTube (https://www.youtube.com/watch?v=XAJeXlY6w-c); the answers, and frames 3, 6, 7 and the assumptions, are a reconstruction",
+  "type": "design",
+  "lang": "en",
+  "board": "",
+  "created_at": "2026-11-17T18:00:00",
+  "frames": [
+    {
+      "id": "0",
+      "name": "Start here",
+      "has_question": false,
+      "draft": {
+        "question": "",
+        "proposal": "",
+        "fields": {
+          "decision": "Which Chrome improvement to build first, for people who work all day in the browser",
+          "how_to_read": "Left to right. Steps 1, 2, 4 and 5 follow the presenter's answer in the video, in our own words. Step 3, the test and metrics in step 6, step 7 and the assumptions are reconstructed for this example. Yellow stamp: the review changed it.",
+          "asks_table": [
+            "Goal: is this the goal, or is there one above it?",
+            "Customer: why this customer and not the other?",
+            "Their moment: is this scene real?",
+            "Where it fails: these, or is one missing?",
+            "Ideas: which one would you add?",
+            "Choose: is it the idea that moves the goal most, and is this how we would know?",
+            "Growth: what is left out?",
+            "Assumptions: which one worries you most?"
+          ]
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:02:00",
+      "answer": null,
+      "outcome": null,
+      "change": null,
+      "final": null,
+      "decided_at": null
+    },
+    {
+      "id": "1",
+      "name": "Goal",
+      "has_question": true,
+      "draft": {
+        "question": "Is this the goal, or is there one above it?",
+        "proposal": "Raise user satisfaction, because Chrome already has the market share and the risk is losing users, not finding them.",
+        "fields": {
+          "business_goal": "Keep heavy users satisfied so they do not switch browsers",
+          "user_problem": "People who work all day in Chrome lose time and focus juggling tabs",
+          "metric": "Satisfaction score (CSAT) of heavy users"
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:03:00",
+      "answer": "Satisfaction, yes. Acquisition, engagement and revenue were weighed and set aside with a reason.",
+      "outcome": "kept",
+      "change": "",
+      "final": {
+        "business_goal": "Keep heavy users satisfied so they do not switch browsers",
+        "user_problem": "People who work all day in Chrome lose time and focus juggling tabs",
+        "metric": "Satisfaction score (CSAT) of heavy users, chosen over NPS because few people recommend a browser",
+        "why_now": "Chrome already leads in share, and rival browsers compete on features (assumption)",
+        "brief_and_givens": "Open brief: how would you improve Chrome? No data, about 25 minutes, one reviewer."
+      },
+      "decided_at": "2026-11-17T18:05:00"
+    },
+    {
+      "id": "2",
+      "name": "Customer",
+      "has_question": true,
+      "draft": {
+        "question": "Why this customer and not the other?",
+        "proposal": "Heavy users, because every small change weighs most for them.",
+        "fields": {
+          "segments": [
+            {
+              "name": "Heavy user, a knowledge worker in the browser all day",
+              "role": [
+                "uses"
+              ]
+            },
+            {
+              "name": "Casual user, browses for leisure",
+              "role": [
+                "uses"
+              ]
+            },
+            {
+              "name": "Light user, rarely online",
+              "role": [
+                "uses"
+              ]
+            }
+          ],
+          "chosen": "Heavy user",
+          "chosen_why": "Small changes weigh most for them"
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:06:00",
+      "answer": "Heavy users. Light users matter for acquisition, and acquisition is not the goal.",
+      "outcome": "kept",
+      "change": "",
+      "final": {
+        "segments": [
+          {
+            "name": "Heavy user",
+            "role": [
+              "uses"
+            ]
+          },
+          {
+            "name": "Casual user",
+            "role": [
+              "uses"
+            ]
+          },
+          {
+            "name": "Light user",
+            "role": [
+              "uses"
+            ]
+          }
+        ],
+        "chosen": "Heavy user",
+        "chosen_why": "A knowledge worker in the browser all day. We assume heavy users are about 20% of users and most of the time spent; small changes weigh most for them, and light users matter for acquisition, which is not the goal",
+        "chosen_why_numbers": [
+          "20%"
+        ]
+      },
+      "decided_at": "2026-11-17T18:08:00"
+    },
+    {
+      "id": "3",
+      "name": "Their moment and what they use it for",
+      "has_question": true,
+      "draft": {
+        "question": "Is this scene real? What does she want underneath?",
+        "proposal": "The presenter's own day as a heavy Chrome user.",
+        "fields": {
+          "persona": "The presenter himself, a heavy Chrome user",
+          "moment": "Any workday with many tabs open",
+          "use_cases": [
+            "Find the right tab",
+            "Manage email and calendar"
+          ]
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:09:00",
+      "answer": "Not you: name a user of the segment and tell her day. It works here only because the presenter is in the segment.",
+      "outcome": "changed",
+      "change": "From the presenter's own experience to a named user of the segment, with a concrete scene.",
+      "final": {
+        "persona": "Maya, a sales analyst who keeps 30 or more tabs open all day (invented for this example)",
+        "moment": "Two minutes before a client call, she needs the deal sheet she opened this morning and cannot find its tab",
+        "deeper_want": "To feel in control of her day instead of chasing windows",
+        "use_cases": [
+          "Get back to a document she already opened (priority)",
+          "Open a Drive file she has not opened today",
+          "Join her next meeting on time"
+        ],
+        "prioritized_use_case": "Get back to a document she already opened"
+      },
+      "decided_at": "2026-11-17T18:12:00"
+    },
+    {
+      "id": "4",
+      "name": "Where it fails today",
+      "has_question": true,
+      "draft": {
+        "question": "These, or is one missing?",
+        "proposal": "Memory and battery drain, and productivity. Productivity first.",
+        "fields": {
+          "failures": [
+            {
+              "name": "Finding the right tab",
+              "cause": "With many tabs only the icons show",
+              "alternative_today": "Scans tabs one by one, or opens Drive and searches again, four or five steps"
+            },
+            {
+              "name": "Late to meetings",
+              "cause": "The calendar is one more tab",
+              "alternative_today": "Keeps the calendar tab open and checks it"
+            },
+            {
+              "name": "Tab overload",
+              "cause": "Tabs pile up and nobody closes them",
+              "alternative_today": "Manual tab groups and pins"
+            },
+            {
+              "name": "Memory and battery drain",
+              "cause": "Many tabs open all day",
+              "alternative_today": "Closes tabs or restarts the browser"
+            }
+          ],
+          "ranking_criterion": "Time lost per day, and how many heavy users hit it",
+          "top": [
+            "Finding the right tab"
+          ]
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:13:00",
+      "answer": "Those, with productivity first. Memory and battery stay on the list, out of scope for now.",
+      "outcome": "kept",
+      "change": "",
+      "final": {
+        "failures": [
+          {
+            "name": "Finding the right tab",
+            "cause": "With many tabs only the icons show",
+            "alternative_today": "Scans tabs one by one, or opens Drive and searches again, four or five steps"
+          },
+          {
+            "name": "Late to meetings",
+            "cause": "The calendar is one more tab",
+            "alternative_today": "Keeps the calendar tab open and checks it"
+          },
+          {
+            "name": "Tab overload",
+            "cause": "Tabs pile up and nobody closes them",
+            "alternative_today": "Manual tab groups and pins"
+          },
+          {
+            "name": "Memory and battery drain, set aside",
+            "cause": "Many tabs open all day",
+            "alternative_today": "Closes tabs or restarts the browser"
+          }
+        ],
+        "ranking_criterion": "Time lost per day, and how many heavy users hit it",
+        "top": [
+          "Finding the right tab"
+        ]
+      },
+      "decided_at": "2026-11-17T18:16:00"
+    },
+    {
+      "id": "5",
+      "name": "Ideas",
+      "has_question": true,
+      "draft": {
+        "question": "Which one would you add?",
+        "proposal": "Three ideas of different size, one per failure.",
+        "fields": {
+          "ideas": [
+            {
+              "name": "Meeting alert with the join link",
+              "size": "small",
+              "attacks": "Late to meetings"
+            },
+            {
+              "name": "One shortcut that searches open tabs, Drive and history",
+              "size": "habit",
+              "attacks": "Finding the right tab"
+            },
+            {
+              "name": "Tabs that sort and clean themselves",
+              "size": "bold",
+              "attacks": "Tab overload"
+            }
+          ]
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:17:00",
+      "answer": "These three. Each one closes with its impact in one line.",
+      "outcome": "kept",
+      "change": "",
+      "final": {
+        "ideas": [
+          {
+            "name": "Meeting alert with the join link",
+            "size": "small",
+            "attacks": "Late to meetings"
+          },
+          {
+            "name": "One shortcut that searches open tabs, Drive and history",
+            "size": "habit",
+            "attacks": "Finding the right tab"
+          },
+          {
+            "name": "Tabs that sort and clean themselves",
+            "size": "bold",
+            "attacks": "Tab overload"
+          }
+        ],
+        "scoring": "Time saved, reach, ease of building, 1 to 5 (our scores, from the reasoning in the video): search 5, 5, 4 · meeting alert 3, 2, 4 · smart tabs 2, 5, 2"
+      },
+      "decided_at": "2026-11-17T18:20:00"
+    },
+    {
+      "id": "6",
+      "name": "Choose, hypothesis and metrics",
+      "has_question": true,
+      "draft": {
+        "question": "Is this the idea that moves the goal most, and is this how we would know?",
+        "proposal": "Universal search: it saves the most time, reaches the most users and Google already knows search.",
+        "fields": {
+          "chosen_idea": "One shortcut that searches open tabs, Drive and history",
+          "why_vs_goal": "Saves the most time for the most heavy users, at a reasonable cost"
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:21:00",
+      "answer": "Good pick. Before building, say how we would know it worked and how to test it small.",
+      "outcome": "changed",
+      "change": "Added the hypothesis with baseline, target and timeframe, the metrics, a cheap test and the weak spot: the video ends at the pick.",
+      "final": {
+        "chosen_idea": "One shortcut that searches open tabs, Drive and history",
+        "why_vs_goal": "Saves the most time for the most heavy users, at a reasonable cost, and time saved is what moves their satisfaction",
+        "hypothesis": {
+          "statement": "One shortcut to any open tab, Drive file or past page gets heavy users to the right document faster",
+          "baseline": "40 s",
+          "target": "15 s",
+          "timeframe": "eight weeks"
+        },
+        "metrics": {
+          "north_star": "CSAT of heavy users",
+          "primary": "Median time from intent to the right document",
+          "secondary": "Share of heavy users who use the shortcut every week",
+          "guardrails": "Memory use and page load do not get worse"
+        },
+        "cheap_test": "Ship the shortcut over open tabs only, to 1% of heavy users, before indexing Drive",
+        "weak_spot": "Searching Drive means touching the user's files: privacy and speed decide it"
+      },
+      "decided_at": "2026-11-17T18:27:00"
+    },
+    {
+      "id": "7",
+      "name": "Growth and vision",
+      "has_question": true,
+      "draft": {
+        "question": "What is left out?",
+        "proposal": "Three phases, from open tabs to every file the user works with.",
+        "fields": {
+          "growth": "The shortcut becomes a habit on every computer the user signs into",
+          "phases": [
+            "Open tabs only",
+            "Plus history",
+            "Plus Drive and other work files"
+          ],
+          "company_strategy_fit": "Chrome as the front door to search and to the user's work files",
+          "dilemma_principle": "When features and speed pull apart, the browser stays fast",
+          "one_sentence_summary": "For people who work all day in Chrome, one shortcut that finds any tab, file or past page, measured by how fast they reach the right document"
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:28:00",
+      "answer": "Nothing to add. Meeting alerts and smart tabs wait for the next round.",
+      "outcome": "kept",
+      "change": "",
+      "final": {
+        "growth": "The shortcut becomes a habit on every computer the user signs into",
+        "phases": [
+          "Open tabs only",
+          "Plus history",
+          "Plus Drive and other work files"
+        ],
+        "company_strategy_fit": "Chrome as the front door to search and to the user's work files",
+        "dilemma_principle": "When features and speed pull apart, the browser stays fast",
+        "one_sentence_summary": "For people who work all day in Chrome, one shortcut that finds any tab, file or past page, measured by how fast they reach the right document"
+      },
+      "decided_at": "2026-11-17T18:30:00"
+    },
+    {
+      "id": "A",
+      "name": "Assumptions",
+      "has_question": true,
+      "draft": {
+        "question": "Which one worries you most?",
+        "proposal": "That users will let Chrome search their files.",
+        "fields": {
+          "assumptions": [
+            "Heavy users are about 20% of users and most of the time spent",
+            "Finding the right tab costs heavy users minutes every day",
+            "Today it takes about 40 s to reach a document that is already open",
+            "Users will let Chrome search their Drive"
+          ],
+          "most_worrying": "Users will let Chrome search their Drive"
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:31:00",
+      "answer": "The Drive one. If people do not trust it, the search stays at tabs and history.",
+      "outcome": "kept",
+      "change": "",
+      "final": {
+        "assumptions": [
+          "Heavy users are about 20% of users and most of the time spent",
+          "Finding the right tab costs heavy users minutes every day",
+          "Today it takes about 40 s to reach a document that is already open",
+          "Users will let Chrome search their Drive"
+        ],
+        "most_worrying": "Users will let Chrome search their Drive"
+      },
+      "decided_at": "2026-11-17T18:33:00"
+    },
+    {
+      "id": "E",
+      "name": "Evidence",
+      "has_question": false,
+      "draft": {
+        "question": "",
+        "proposal": "",
+        "fields": {
+          "items": [
+            {
+              "type": "source",
+              "ref": "The case and steps 1, 2, 4 and 5, retold in our own words: a public product walkthrough by IGotAnOffer, about 25 minutes",
+              "source": "youtube.com/watch?v=XAJeXlY6w-c"
+            },
+            {
+              "type": "note",
+              "ref": "Step 3, the test and metrics in step 6, step 7 and the assumptions are ours, reconstructed for this example",
+              "source": "This board"
+            },
+            {
+              "type": "note",
+              "ref": "Every number on this board is an assumption, not data from Google",
+              "source": "This board"
+            }
+          ]
+        },
+        "drafted_at": "2026-11-17T18:01:00"
+      },
+      "opened_at": "2026-11-17T18:34:00",
+      "answer": null,
+      "outcome": null,
+      "change": null,
+      "final": null,
+      "decided_at": null
+    }
+  ],
+  "numbers": [
+    {
+      "value": "20%",
+      "frame": "2",
+      "assumption": true
+    },
+    {
+      "value": "30",
+      "frame": "3",
+      "assumption": true
+    },
+    {
+      "value": "40",
+      "frame": "6",
+      "assumption": true
+    },
+    {
+      "value": "15",
+      "frame": "6",
+      "assumption": true
+    },
+    {
+      "value": "1%",
+      "frame": "6",
+      "assumption": true
+    }
+  ],
+  "solution_terms": []
+}

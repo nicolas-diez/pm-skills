@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" role="img" aria-labelledby="bt bd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="bt">A workshop board after the person has decided every frame</title>
+<desc id="bd">Eight frames of an invented example. Four are stamped Changed and show what the person said; four are stamped Decided.</desc>
+<rect width="1000" height="780" rx="14" fill="#f6f8fa"/>
+<text x="16" y="34" font-size="18" font-weight="600" fill="#1f2328">The board after the workshop: an invented case</text>
+<text x="16" y="56" font-size="12.5" fill="#57606a">A booking app for bike repair shops. The AI drafted every frame; the person decided them one at a time.</text>
+<rect x="16" y="78" width="316" height="222" rx="10" fill="#ffffff" stroke="#bf8700"/>
+<circle cx="42" cy="104" r="12" fill="#ddf4ff"/>
+<text x="42" y="108" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">1</text>
+<text x="62" y="109" font-size="14" font-weight="600" fill="#1f2328">Goal</text>
+<rect x="250" y="94" width="68" height="20" rx="10" fill="#bf8700"/>
+<text x="284" y="108" text-anchor="middle" font-size="10.5" font-weight="600" fill="#ffffff">Changed</text>
+<rect x="30" y="126" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="38" y="142" font-size="11" font-weight="600" fill="#1f2328">Is this the goal, or is there one above it?</text>
+<text x="30" y="170" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Goal:</tspan> More riders complete a first repair</text>
+<text x="30" y="185" font-size="11.5" fill="#57606a">booking</text>
+<text x="30" y="203" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Keeps score with:</tspan> First bookings completed</text>
+<text x="30" y="218" font-size="11.5" fill="#57606a">per week</text>
+<line x1="30" y1="256" x2="318" y2="256" stroke="#bf8700" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="30" y="272" font-size="11" font-style="italic" fill="#7d4e00">You said: “Downloads are not the goal. A shop</text>
+<text x="30" y="286" font-size="11" font-style="italic" fill="#7d4e00">pays us when a repair gets booked. The goal…”</text>
+<rect x="342" y="78" width="316" height="222" rx="10" fill="#ffffff" stroke="#bf8700"/>
+<circle cx="368" cy="104" r="12" fill="#ddf4ff"/>
+<text x="368" y="108" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">2</text>
+<text x="388" y="109" font-size="14" font-weight="600" fill="#1f2328">Customer</text>
+<rect x="576" y="94" width="68" height="20" rx="10" fill="#bf8700"/>
+<text x="610" y="108" text-anchor="middle" font-size="10.5" font-weight="600" fill="#ffffff">Changed</text>
+<rect x="356" y="126" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="364" y="142" font-size="11" font-weight="600" fill="#1f2328">Why this customer and not the other?</text>
+<text x="356" y="170" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">We pick:</tspan> Daily commuter</text>
+<text x="356" y="188" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Why:</tspan> We assume commuters are 60% of repair</text>
+<text x="356" y="203" font-size="11.5" fill="#57606a">demand and the only group that needs the bike</text>
+<text x="356" y="218" font-size="11.5" fill="#57606a">back the same day</text>
+<line x1="356" y1="256" x2="644" y2="256" stroke="#bf8700" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="356" y="272" font-size="11" font-style="italic" fill="#7d4e00">You said: “Commuters. A weekend rider can wait</text>
+<text x="356" y="286" font-size="11" font-style="italic" fill="#7d4e00">a week. A commuter with a flat loses the…”</text>
+<rect x="668" y="78" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="694" cy="104" r="12" fill="#ddf4ff"/>
+<text x="694" y="108" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">3</text>
+<text x="714" y="109" font-size="14" font-weight="600" fill="#1f2328">Their moment</text>
+<rect x="902" y="94" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="936" y="108" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="682" y="126" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="690" y="142" font-size="11" font-weight="600" fill="#1f2328">Is this scene real? What does she want…</text>
+<text x="682" y="170" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Scene:</tspan> Dana, rides to work every day. Monday</text>
+<text x="682" y="185" font-size="11.5" fill="#57606a">morning, flat tire and a bent rim, halfway to</text>
+<text x="682" y="200" font-size="11.5" fill="#57606a">the office</text>
+<text x="682" y="218" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Underneath:</tspan> Not to depend on anyone to get to</text>
+<text x="682" y="233" font-size="11.5" fill="#57606a">work</text>
+<rect x="16" y="310" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="42" cy="336" r="12" fill="#ddf4ff"/>
+<text x="42" y="340" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">4</text>
+<text x="62" y="341" font-size="14" font-weight="600" fill="#1f2328">Where it fails today</text>
+<rect x="250" y="326" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="284" y="340" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="30" y="358" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="38" y="374" font-size="11" font-weight="600" fill="#1f2328">These three, or is one missing?</text>
+<text x="30" y="402" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Fails today:</tspan> No visible slots; Unknown price;</text>
+<text x="30" y="417" font-size="11.5" fill="#57606a">A day without the bike</text>
+<text x="30" y="435" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Ranked by:</tspan> How many commuters hit it before</text>
+<text x="30" y="450" font-size="11.5" fill="#57606a">booking, and whether it stops the booking</text>
+<rect x="342" y="310" width="316" height="222" rx="10" fill="#ffffff" stroke="#bf8700"/>
+<circle cx="368" cy="336" r="12" fill="#ddf4ff"/>
+<text x="368" y="340" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">5</text>
+<text x="388" y="341" font-size="14" font-weight="600" fill="#1f2328">Ideas</text>
+<rect x="576" y="326" width="68" height="20" rx="10" fill="#bf8700"/>
+<text x="610" y="340" text-anchor="middle" font-size="10.5" font-weight="600" fill="#ffffff">Changed</text>
+<rect x="356" y="358" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="364" y="374" font-size="11" font-weight="600" fill="#1f2328">Which one would you add?</text>
+<text x="356" y="402" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Ideas:</tspan> Open-slot calendar (small); Fixed-</text>
+<text x="356" y="417" font-size="11.5" fill="#57606a">price menu (habit); Loaner bike (bold);</text>
+<text x="356" y="432" font-size="11.5" fill="#57606a">Office pickup (bold)</text>
+<line x1="356" y1="488" x2="644" y2="488" stroke="#bf8700" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="356" y="504" font-size="11" font-style="italic" fill="#7d4e00">You said: “Add pickup at the office. Some</text>
+<text x="356" y="518" font-size="11" font-style="italic" fill="#7d4e00">commuters cannot even get the bike to the shop.”</text>
+<rect x="668" y="310" width="316" height="222" rx="10" fill="#ffffff" stroke="#bf8700"/>
+<circle cx="694" cy="336" r="12" fill="#ddf4ff"/>
+<text x="694" y="340" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">6</text>
+<text x="714" y="341" font-size="14" font-weight="600" fill="#1f2328">Choose and measure</text>
+<rect x="902" y="326" width="68" height="20" rx="10" fill="#bf8700"/>
+<text x="936" y="340" text-anchor="middle" font-size="10.5" font-weight="600" fill="#ffffff">Changed</text>
+<rect x="682" y="358" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="690" y="374" font-size="11" font-weight="600" fill="#1f2328">Is this the idea that moves the goal most…</text>
+<text x="682" y="402" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">The pick:</tspan> Open-slot calendar</text>
+<text x="682" y="420" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Hypothesis:</tspan> 40% to 55% in six weeks</text>
+<text x="682" y="438" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Primary metric:</tspan> Share of started bookings</text>
+<text x="682" y="453" font-size="11.5" fill="#57606a">that complete</text>
+<line x1="682" y1="488" x2="970" y2="488" stroke="#bf8700" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="682" y="504" font-size="11" font-style="italic" fill="#7d4e00">You said: “The calendar, yes. But views are not</text>
+<text x="682" y="518" font-size="11" font-style="italic" fill="#7d4e00">the metric. Count how many started bookings…”</text>
+<rect x="16" y="542" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="42" cy="568" r="12" fill="#ddf4ff"/>
+<text x="42" y="572" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">7</text>
+<text x="62" y="573" font-size="14" font-weight="600" fill="#1f2328">Growth and vision</text>
+<rect x="250" y="558" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="284" y="572" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="30" y="590" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="38" y="606" font-size="11" font-weight="600" fill="#1f2328">What is left out?</text>
+<text x="30" y="634" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Phases:</tspan> Three shops, by hand; One</text>
+<text x="30" y="649" font-size="11.5" fill="#57606a">neighborhood, calendar in the app; The city,</text>
+<text x="30" y="664" font-size="11.5" fill="#57606a">with the price menu</text>
+<text x="30" y="682" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">In one sentence:</tspan> For commuters who lose a</text>
+<text x="30" y="697" font-size="11.5" fill="#57606a">workday to a broken bike, show this week's</text>
+<text x="30" y="712" font-size="11.5" fill="#57606a">open slots and count how many started</text>
+<text x="30" y="727" font-size="11.5" fill="#57606a">bookings complete</text>
+<rect x="342" y="542" width="316" height="222" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="368" cy="568" r="12" fill="#ddf4ff"/>
+<text x="368" y="572" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">A</text>
+<text x="388" y="573" font-size="14" font-weight="600" fill="#1f2328">Assumptions</text>
+<rect x="576" y="558" width="68" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="610" y="572" text-anchor="middle" font-size="10.5" font-weight="600" fill="#57606a">Decided</text>
+<rect x="356" y="590" width="288" height="24" rx="6" fill="#fff8c5"/>
+<text x="364" y="606" font-size="11" font-weight="600" fill="#1f2328">Which one worries you most?</text>
+<text x="356" y="634" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Worries most:</tspan> Shops will update their slots</text>
+<text x="356" y="649" font-size="11.5" fill="#57606a">every morning</text>
+<text x="356" y="667" font-size="11.5" fill="#57606a"><tspan font-weight="600" fill="#1f2328">Also assumed:</tspan> Commuters are most of the</text>
+<text x="356" y="682" font-size="11.5" fill="#57606a">repair demand; Today fewer than half of</text>
+<text x="356" y="697" font-size="11.5" fill="#57606a">started bookings complete</text>
+<rect x="668" y="542" width="316" height="222" rx="10" fill="#ddf4ff" stroke="#0969da"/>
+<text x="690" y="624" font-size="54" font-weight="600" fill="#0969da">4 of 8</text>
+<text x="690" y="654" font-size="15" font-weight="600" fill="#1f2328">decisions changed against</text>
+<text x="690" y="674" font-size="15" font-weight="600" fill="#1f2328">the AI's first draft</text>
+<text x="690" y="706" font-size="12" fill="#57606a">That count is what the workshop is for.</text>
+<text x="690" y="724" font-size="12" fill="#57606a">If it stays at zero, cut the workshop down.</text>
+</svg>
