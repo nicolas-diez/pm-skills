@@ -4,6 +4,25 @@
 
 > Thesis: **audit the evidence first, change the decision, then prototype fast.**
 
+## Two ways into a product decision
+
+pm-skills holds two methods. They start from opposite ends and meet in the same place: a test with a threshold that triggers a decision.
+
+| | Evidence-first engine | Human in the loop |
+|---|---|---|
+| Starts from | Raw evidence: interviews, surveys, transcripts | A goal and a frame: a request, a brief, a specific context |
+| Direction | Bottom-up. From what was observed to what must be true | Top-down. From the goal to the customer, the failure and the idea |
+| Guards against | Building on evidence nobody audited | Building on a frame nobody questioned |
+| Who checks | A verifier skill that can say "don't trust this evidence" | A person who decides every frame |
+| Ends in | An experiment-first roadmap with kill gates | A discussed board, then a deck or a short test-first PRD |
+| Use it when | You have evidence and no decision yet | You have a goal or a request and little evidence yet |
+
+They feed each other. The assumptions a workshop leaves in red are what the evidence engine audits next. The opportunities the engine finds are the failures a workshop frames.
+
+The first is inductive: it goes from observations to what must be true, in the line of continuous discovery (Teresa Torres) and riskiest-assumption testing (Marty Cagan; David Bland and Alex Osterwalder). The second is hypothesis-first: it states a goal and a frame and reasons down to something testable, in the line of the product walk of Gayle Laakmann McDowell and Jackie Bavaro, goal and user before ideas. Torres's opportunity solution tree shows why a team needs both: it starts from a desired outcome, and the opportunities under it come from customer interviews.
+
+The engine is the rest of this page. The human-in-the-loop kit lives in [`human-in-the-loop/`](human-in-the-loop/).
+
 ## Why this exists
 
 The AI-native PM stack has two crowded categories that don't touch each other:
@@ -57,5 +76,3 @@ Framework + methodology, in the open. The engine is designed to be portable acro
 ## License
 
 MIT — see [LICENSE](./LICENSE).
-
-See also [PM Skills · Human in the loop](human-in-the-loop/): four skills that take a request to a discussed board, and on to a deck or a short test-first PRD, with you deciding at every step.
