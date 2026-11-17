@@ -1,10 +1,10 @@
 ---
-name: miro-product-workshop
+name: product-workshop
 description: "Product workshop on a Miro board with the person in the loop. The AI drafts every frame (goal, customer, moment, failures, ideas, choice and metrics, growth) and the person decides them one at a time; nothing advances without their answer. Use before writing a product document or a deck, starting from a brief, a one-pager or an own idea, when the user says «armemos el taller», «pasemos esto por Miro», «validemos la idea» or «workshop this»."
 when_not_to_use: "Do not use when the request is still a feature with no goal (run ship-outcomes first), for a dataset diagnosis that already has its own skill (growth-diagnostic), to draw architecture or flow diagrams, or to produce a finished board with nobody to discuss it with."
 ---
 
-# Miro Product Workshop
+# Product Workshop
 
 > The AI drafts the board. You change its mind, one frame at a time.
 

@@ -1,7 +1,7 @@
 ---
 name: workshop-to-prd
 description: "Turns a discussed workshop board into a short, test-first PRD. It starts from the decision log, puts the cheapest test and its threshold before any requirement, and makes every requirement say which failure from the board it answers. The person decides the scope of the first version, what is left out and the edge cases. Use when the user says «pasemos el tablero a un PRD», «armá el PRD del taller» or «write the PRD from the board»."
-when_not_to_use: "Do not use without a discussed board or decision log (run miro-product-workshop first), to write a full product spec before anything has been tested, or to create tickets in an engineering tool."
+when_not_to_use: "Do not use without a discussed board or decision log (run product-workshop first), to write a full product spec before anything has been tested, or to create tickets in an engineering tool."
 ---
 
 # Workshop to PRD

@@ -1,6 +1,6 @@
 {
   "title": "Spoke: this week's open slots (invented example)",
-  "log": "../../miro-product-workshop/examples/bike-repair-workshop-log.json",
+  "log": "../../product-workshop/examples/bike-repair-workshop-log.json",
   "problem": "A rider with a broken bike cannot tell which shop can fix it this week or what it will cost. Today she calls two or three shops, or rides to the nearest one and waits.",
   "for_whom": "The daily commuter. We assume commuters are 60% of repair demand, and they are the only group that needs the bike back the same day.",
   "test_first": {

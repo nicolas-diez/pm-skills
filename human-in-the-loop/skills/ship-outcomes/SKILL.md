@@ -8,7 +8,7 @@ when_not_to_use: "Do not use when the outcome is already defined and tested, or 
 
 > A feature is a bet that some behavior will change. Name the behavior before you build the bet.
 
-The four questions come from Nicolas Liatti's lesson "Use AI to Ship Outcomes, Not Features". This skill runs them as a conversation: the AI generates the options, and the person chooses and defends the choice. It ends in a one-page Outcome Brief that takes the place of the feature spec, and that page is the starting point of `miro-product-workshop`.
+The four questions come from Nicolas Liatti's lesson "Use AI to Ship Outcomes, Not Features". This skill runs them as a conversation: the AI generates the options, and the person chooses and defends the choice. It ends in a one-page Outcome Brief that takes the place of the feature spec, and that page is the starting point of `product-workshop`.
 
 ## How it behaves
 
@@ -47,7 +47,7 @@ Give the page back to whoever made the request. Either they rethink it, or they 
 
 ## Into the workshop
 
-The four answers pre-fill four frames of `miro-product-workshop`: the behavior goes to the goal, the assumption to the assumptions strip, the cheapest test and the metrics to the frame where the idea is chosen. The person still decides each of those frames.
+The four answers pre-fill four frames of `product-workshop`: the behavior goes to the goal, the assumption to the assumptions strip, the cheapest test and the metrics to the frame where the idea is chosen. The person still decides each of those frames.
 
 ## What it never does
 

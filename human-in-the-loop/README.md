@@ -13,7 +13,7 @@ Four Claude skills for the first mile of product management: the stretch between
 | You start with | Skill | What you do | You leave with |
 |---|---|---|---|
 | A request with no clear goal ("we need a dashboard") | [`ship-outcomes`](skills/ship-outcomes/) | Answer four questions, one at a time | One page: the behavior that should change, the assumption that would kill it, the cheapest test and the metrics |
-| That page, a brief or an idea of your own | [`miro-product-workshop`](skills/miro-product-workshop/) | Discuss a Miro board frame by frame. Each frame is a question for you | The board, and a log of what the draft said and what you changed |
+| That page, a brief or an idea of your own | [`product-workshop`](skills/product-workshop/) | Discuss a Miro board frame by frame. Each frame is a question for you | The board, and a log of what the draft said and what you changed |
 | A board you have already discussed, and people to convince | [`workshop-to-deck`](skills/workshop-to-deck/) | Approve the slide script, slide by slide, before anything is generated | A deck and its PDF, where every number traces back to the board |
 | A board you have already discussed, and something to build | [`workshop-to-prd`](skills/workshop-to-prd/) | Decide the scope of the first version, what is left out and the edge cases | A short PRD that starts from the test, where every requirement answers a failure on the board |
 
@@ -58,7 +58,7 @@ Two examples come with the workshop, each in its own color.
 
 ![The same board on the Chrome exercise: eight frames, two of them changed by the review](board-chrome.svg)
 
-A second row of three frames (isolate, diagnose, resolve) handles "this metric moved, why?". The full template, in English and Spanish, is in [`TEMPLATE.md`](skills/miro-product-workshop/TEMPLATE.md).
+A second row of three frames (isolate, diagnose, resolve) handles "this metric moved, why?". The full template, in English and Spanish, is in [`TEMPLATE.md`](skills/product-workshop/TEMPLATE.md).
 
 ## The rules are in code
 
@@ -81,7 +81,7 @@ The scripts are plain Python with no dependencies, and each comes with its tests
 The tests run from each skill's folder:
 
 ```
-cd skills/miro-product-workshop && python3 test_workshop_log.py
+cd skills/product-workshop && python3 test_workshop_log.py
 cd skills/workshop-to-deck && python3 test_deck_script.py
 cd skills/workshop-to-prd && python3 test_prd_check.py
 ```

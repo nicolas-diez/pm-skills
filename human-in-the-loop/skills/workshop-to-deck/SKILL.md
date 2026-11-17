@@ -1,7 +1,7 @@
 ---
 name: workshop-to-deck
 description: "Turns a discussed workshop board into a deck. It starts from the decision log, writes a slide script the person approves slide by slide, and only then spends one generation; every number on a slide traces back to the board or to a named source. Use when the user says «pasemos el tablero a un deck», «armá la presentación del taller» or «make the deck from the board»."
-when_not_to_use: "Do not use without a discussed board or decision log (run miro-product-workshop first), to restyle a deck that already exists, or to send or share the deck: that is the person's call."
+when_not_to_use: "Do not use without a discussed board or decision log (run product-workshop first), to restyle a deck that already exists, or to send or share the deck: that is the person's call."
 ---
 
 # Workshop to Deck

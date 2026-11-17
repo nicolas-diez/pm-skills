@@ -87,7 +87,7 @@ class Gate(unittest.TestCase):
         self.dir = tempfile.mkdtemp()
         self.path = os.path.join(self.dir, "deck.json")
         deck = ds.load(EXAMPLE)
-        deck["log"] = os.path.join(HERE, "..", "miro-product-workshop", "examples", "bike-repair-workshop-log.json")
+        deck["log"] = os.path.join(HERE, "..", "product-workshop", "examples", "bike-repair-workshop-log.json")
         self.base = deck
         self.write(deck)
 

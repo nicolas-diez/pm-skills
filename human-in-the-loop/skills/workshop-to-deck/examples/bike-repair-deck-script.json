@@ -1,6 +1,6 @@
 {
   "deck": "Spoke: show this week's open slots (invented example)",
-  "log": "../../miro-product-workshop/examples/bike-repair-workshop-log.json",
+  "log": "../../product-workshop/examples/bike-repair-workshop-log.json",
   "max_slides": 8,
   "brief": [
     {"id": "B1", "asks": "What should Spoke build next quarter?"},
